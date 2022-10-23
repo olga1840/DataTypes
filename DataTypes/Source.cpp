@@ -1,4 +1,4 @@
-//DataTypes
+ï»¿//DataTypes
 #include<iostream>
 using namespace std;
 
@@ -22,9 +22,9 @@ void main()
 	
 	double price_of_coffee;
 	int number_of_cups;
-	cout << "Ââåäèòå ñòîèìîñòü ÷àøêè êîôå: ";cin >> price_of_coffee;
-	cout << "ÂÂåäèòå êîëè÷åñòâî ÷àøåê: ";cin >> number_of_cups;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚ÑŒ Ñ‡Ð°ÑˆÐºÐ¸ ÐºÐ¾Ñ„Ðµ: ";cin >> price_of_coffee;
+	cout << "Ð’Ð’ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð°ÑˆÐµÐº: ";cin >> number_of_cups;
 	double total_price = price_of_coffee * number_of_cups;
-	cout << "Ñ Âàñ: " << total_price <<" $\n";
+	cout << "Ð¡ Ð’Ð°Ñ: " << total_price <<" $\n";
 	//cout << price_of_coffee << endl;
 }
